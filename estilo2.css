@@ -31,7 +31,7 @@ a{
 
 /* MENU ESTILO */
 
-.menu  { 
+#menu  { 
     display: flex;
     flex-wrap: wrap; /* fica resposivel (quebrando  com alteracao de tam de tela  */
     gap: 20px;
@@ -39,7 +39,7 @@ a{
   
 }
 
-.menu a { /* nao estava referenciado os links em si com duas tags identificacao   para referencia  */
+#menu a { /* nao estava referenciado os links em si com duas tags identificacao   para referencia  */
      /* nao estou  usando o padding de com a visao de espaco interno igual ele fez aqui para levar para o lado eu iria aumentar o witdh  */
     background: #ffffff;
     padding: 14px 30px;
@@ -49,7 +49,7 @@ a{
     margin: 10px;
 }
 
-.menu li {
+#menu li {
     list-style: none;
 }
 
