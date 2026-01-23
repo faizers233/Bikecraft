@@ -142,6 +142,10 @@ seletion .vantagens {
     border-left: solid red;
 }
 
+.vantagens-itens:nth-child(odd){
+    background-color: hsl(0, 0%, 97%); ;
+}
+
 .vantagens {
     grid-column: 2;
 }
