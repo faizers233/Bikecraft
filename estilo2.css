@@ -99,7 +99,23 @@ a{
     background-color: rgba(255, 21, 0, 0.507) ;
 }
 
-.detalhe {  /* como e span nao e elemento em bloco e sim em linha falta o heigth e width */ 
+h2 {
+    position: relative;
+}
+
+.informacoes h2::before{
+    content: "";
+    display: inline-block;
+    height: 0.3rem;
+    width: 2.5rem;
+    background: #e21;
+    position: absolute;
+    left: 17.5rem;
+    top: -1.25rem;
+}
+
+/* Elemento de detalhe html retirado e colado no lugar pseudo
+.detalhe { 
     width: 3.75rem ;
     height: 0.25rem;
     background: red;
@@ -107,7 +123,7 @@ a{
     top: 1.87rem;
     right: -1.87rem ;
 }
-
+*/ 
 
 .subtitulo {
     font-size: 4rem;
